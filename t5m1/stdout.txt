@@ -1,0 +1,740 @@
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/codio/workspace/build
+Scanning dependencies of target FOSSSim
+[100%] Building CXX object FOSSSim/CMakeFiles/FOSSSim.dir/StableFluids/StableFluidsSim.cpp.o
+Linking CXX executable FOSSSim
+[100%] Built target FOSSSim
+
+==============================================================================
+  Running Scenes:
+==============================================================================
+
+    [34mt6m1/NoViscTests/test01.xml[0m                                         
+[32;1m------------------------------------------    
+  _____ ___  ____ ____ ____  _                
+ |  ___/ _ \/ ___/ ___/ ___|(_)_ __ ___      
+ | |_ | | | \___ \___ \___ \| | '_ ` _ \ 
+ |  _|| |_| |___) |__) |__) | | | | | | |     
+ |_|   \___/|____/____/____/|_|_| |_| |_|    
+------------------------------------------    [m
+
+[34;1mBuild type: [mRelease
+[34;1mRendering: [mDisabled
+[34;1mScene: [m/home/codio/workspace/.guides/secure/assets/t6m1/NoViscTests/test01.xml
+[34;1mDescription: [mNo viscosity test
+[34;1mVelocity pattern: [m2
+[35;1mFOSSSim message: [mBenchmarking simulation in: /tmp/tmpsTCizh
+[35;1mProgress: [m--------------------------------------------------
+          ..............................
+[35;1mFOSSSim STATUS: [mSimulation complete at time 0.3. Exiting.
+[35;1mFOSSSim message: [mClosing benchmarked simulation file '/tmp/tmpsTCizh'.
+Accumulated U Residual after diffusion: 1143.98
+Accumulated V Residual after diffusion: 1143.98
+Accumulated U Residual after advection: 1133.53
+Accumulated V Residual after advection: 1133.53
+Accumulated U Residual: 1181.72   Failed.
+Accumulated V Residual: 1181.72   Failed.
+Maximum U Residual: 0.530197   Failed.
+Maximum V Residual: 0.530197   Failed.
+Overall success: Failed.
+[35;1mFOSSSim message: [mSaved residual to residual.txt.
+
+[DONE]
+    [34mt6m1/NoViscTests/test02.xml[0m                                         
+[32;1m------------------------------------------    
+  _____ ___  ____ ____ ____  _                
+ |  ___/ _ \/ ___/ ___/ ___|(_)_ __ ___      
+ | |_ | | | \___ \___ \___ \| | '_ ` _ \ 
+ |  _|| |_| |___) |__) |__) | | | | | | |     
+ |_|   \___/|____/____/____/|_|_| |_| |_|    
+------------------------------------------    [m
+
+[34;1mBuild type: [mRelease
+[34;1mRendering: [mDisabled
+[34;1mScene: [m/home/codio/workspace/.guides/secure/assets/t6m1/NoViscTests/test02.xml
+[34;1mDescription: [mNo viscosity test
+[34;1mVelocity pattern: [m4
+[35;1mFOSSSim message: [mBenchmarking simulation in: /tmp/tmp0iA6Vr
+[35;1mProgress: [m--------------------------------------------------
+          ..............................
+[35;1mFOSSSim STATUS: [mSimulation complete at time 0.3. Exiting.
+[35;1mFOSSSim message: [mClosing benchmarked simulation file '/tmp/tmp0iA6Vr'.
+Accumulated U Residual after diffusion: 507.945
+Accumulated V Residual after diffusion: 475.492
+Accumulated U Residual after advection: 571.04
+Accumulated V Residual after advection: 455.749
+Accumulated U Residual: 734.095   Failed.
+Accumulated V Residual: 686.868   Failed.
+Maximum U Residual: 1.46761   Failed.
+Maximum V Residual: 0.524106   Failed.
+Overall success: Failed.
+[35;1mFOSSSim message: [mSaved residual to residual.txt.
+
+[DONE]
+    [34mt6m1/NoViscTests/test03.xml[0m                                         [DONE]
+    [34mt6m1/NoViscTests/test04.xml[0m                                         
+[32;1m------------------------------------------    
+  _____ ___  ____ ____ ____  _                
+ |  ___/ _ \/ ___/ ___/ ___|(_)_ __ ___      
+ | |_ | | | \___ \___ \___ \| | '_ ` _ \ 
+ |  _|| |_| |___) |__) |__) | | | | | | |     
+ |_|   \___/|____/____/____/|_|_| |_| |_|    
+------------------------------------------    [m
+
+[34;1mBuild type: [mRelease
+[34;1mRendering: [mDisabled
+[34;1mScene: [m/home/codio/workspace/.guides/secure/assets/t6m1/NoViscTests/test04.xml
+[34;1mDescription: [mNo viscosity test
+[34;1mVelocity pattern: [m8
+[35;1mFOSSSim message: [mBenchmarking simulation in: /tmp/tmpiQySvv
+[35;1mProgress: [m--------------------------------------------------
+          ..............................
+[35;1mFOSSSim STATUS: [mSimulation complete at time 0.3. Exiting.
+[35;1mFOSSSim message: [mClosing benchmarked simulation file '/tmp/tmpiQySvv'.
+Accumulated U Residual after diffusion: 170.047
+Accumulated V Residual after diffusion: 169.312
+Accumulated U Residual after advection: 166.352
+Accumulated V Residual after advection: 171.315
+Accumulated U Residual: 241.268   Failed.
+Accumulated V Residual: 233.37   Failed.
+Maximum U Residual: 0.171754   Failed.
+Maximum V Residual: 0.311104   Failed.
+Overall success: Failed.
+[35;1mFOSSSim message: [mSaved residual to residual.txt.
+
+[DONE]
+    [34mt6m1/NoDiffTests/test01.xml[0m                                         
+[32;1m------------------------------------------    
+  _____ ___  ____ ____ ____  _                
+ |  ___/ _ \/ ___/ ___/ ___|(_)_ __ ___      
+ | |_ | | | \___ \___ \___ \| | '_ ` _ \ 
+ |  _|| |_| |___) |__) |__) | | | | | | |     
+ |_|   \___/|____/____/____/|_|_| |_| |_|    
+------------------------------------------    [m
+
+[34;1mBuild type: [mRelease
+[34;1mRendering: [mDisabled
+[34;1mScene: [m/home/codio/workspace/.guides/secure/assets/t6m1/NoDiffTests/test01.xml
+[34;1mDescription: [mNo diffusion test
+[34;1mVelocity pattern: [m1
+[35;1mFOSSSim message: [mBenchmarking simulation in: /tmp/tmp5tsnZg
+[35;1mProgress: [m--------------------------------------------------
+          ..............................
+[35;1mFOSSSim STATUS: [mSimulation complete at time 0.3. Exiting.
+[35;1mFOSSSim message: [mClosing benchmarked simulation file '/tmp/tmp5tsnZg'.
+Accumulated U Residual after diffusion: 7005.93
+Accumulated V Residual after diffusion: 7005.93
+Accumulated U Residual after advection: 7438.8
+Accumulated V Residual after advection: 7438.8
+Accumulated U Residual: 10204.9   Failed.
+Accumulated V Residual: 10204.9   Failed.
+Maximum U Residual: 0.724818   Failed.
+Maximum V Residual: 0.724818   Failed.
+Overall success: Failed.
+[35;1mFOSSSim message: [mSaved residual to residual.txt.
+
+[DONE]
+    [34mt6m1/NoDiffTests/test02.xml[0m                                         
+[32;1m------------------------------------------    
+  _____ ___  ____ ____ ____  _                
+ |  ___/ _ \/ ___/ ___/ ___|(_)_ __ ___      
+ | |_ | | | \___ \___ \___ \| | '_ ` _ \ 
+ |  _|| |_| |___) |__) |__) | | | | | | |     
+ |_|   \___/|____/____/____/|_|_| |_| |_|    
+------------------------------------------    [m
+
+[34;1mBuild type: [mRelease
+[34;1mRendering: [mDisabled
+[34;1mScene: [m/home/codio/workspace/.guides/secure/assets/t6m1/NoDiffTests/test02.xml
+[34;1mDescription: [mNo diffusion test
+[34;1mVelocity pattern: [m3
+[35;1mFOSSSim message: [mBenchmarking simulation in: /tmp/tmpiVjkYy
+[35;1mProgress: [m--------------------------------------------------
+          ..............................
+[35;1mFOSSSim STATUS: [mSimulation complete at time 0.3. Exiting.
+[35;1mFOSSSim message: [mClosing benchmarked simulation file '/tmp/tmpiVjkYy'.
+Accumulated U Residual after diffusion: 677.489
+Accumulated V Residual after diffusion: 677.252
+Accumulated U Residual after advection: 650.787
+Accumulated V Residual after advection: 709.994
+Accumulated U Residual: 938.479   Failed.
+Accumulated V Residual: 943.271   Failed.
+Maximum U Residual: 0.294262   Failed.
+Maximum V Residual: 0.844024   Failed.
+Overall success: Failed.
+[35;1mFOSSSim message: [mSaved residual to residual.txt.
+
+[DONE]
+    [34mt6m1/NoDiffTests/test03.xml[0m                                         
+[32;1m------------------------------------------    
+  _____ ___  ____ ____ ____  _                
+ |  ___/ _ \/ ___/ ___/ ___|(_)_ __ ___      
+ | |_ | | | \___ \___ \___ \| | '_ ` _ \ 
+ |  _|| |_| |___) |__) |__) | | | | | | |     
+ |_|   \___/|____/____/____/|_|_| |_| |_|    
+------------------------------------------    [m
+
+[34;1mBuild type: [mRelease
+[34;1mRendering: [mDisabled
+[34;1mScene: [m/home/codio/workspace/.guides/secure/assets/t6m1/NoDiffTests/test03.xml
+[34;1mDescription: [mNo diffusion test
+[34;1mVelocity pattern: [m5
+[35;1mFOSSSim message: [mBenchmarking simulation in: /tmp/tmpPIWQsp
+[35;1mProgress: [m--------------------------------------------------
+          ..............................
+[35;1mFOSSSim STATUS: [mSimulation complete at time 0.3. Exiting.
+[35;1mFOSSSim message: [mClosing benchmarked simulation file '/tmp/tmpPIWQsp'.
+Accumulated U Residual after diffusion: 6091.95
+Accumulated V Residual after diffusion: 1668.65
+Accumulated U Residual after advection: 6297.97
+Accumulated V Residual after advection: 1659.71
+Accumulated U Residual: 8545.07   Failed.
+Accumulated V Residual: 3132.24   Failed.
+Maximum U Residual: 1.56882   Failed.
+Maximum V Residual: 0.956815   Failed.
+Overall success: Failed.
+[35;1mFOSSSim message: [mSaved residual to residual.txt.
+
+[DONE]
+    [34mt6m1/NoDiffTests/test04.xml[0m                                         [DONE]
+    [34mt6m1/NoAdvectTests/test01.xml[0m                                       
+[32;1m------------------------------------------    
+  _____ ___  ____ ____ ____  _                
+ |  ___/ _ \/ ___/ ___/ ___|(_)_ __ ___      
+ | |_ | | | \___ \___ \___ \| | '_ ` _ \ 
+ |  _|| |_| |___) |__) |__) | | | | | | |     
+ |_|   \___/|____/____/____/|_|_| |_| |_|    
+------------------------------------------    [m
+
+[34;1mBuild type: [mRelease
+[34;1mRendering: [mDisabled
+[34;1mScene: [m/home/codio/workspace/.guides/secure/assets/t6m1/NoAdvectTests/test01.xml
+[34;1mDescription: [mNo advection test
+[34;1mVelocity pattern: [m1
+[35;1mFOSSSim message: [mBenchmarking simulation in: /tmp/tmpUTCGH8
+[35;1mProgress: [m--------------------------------------------------
+          ..............................
+[35;1mFOSSSim STATUS: [mSimulation complete at time 0.3. Exiting.
+[35;1mFOSSSim message: [mClosing benchmarked simulation file '/tmp/tmpUTCGH8'.
+Accumulated U Residual after diffusion: 7005.93
+Accumulated V Residual after diffusion: 7005.93
+Accumulated U Residual after advection: 7005.93
+Accumulated V Residual after advection: 7005.93
+Accumulated U Residual: 9811.7   Failed.
+Accumulated V Residual: 9811.7   Failed.
+Maximum U Residual: 0.740945   Failed.
+Maximum V Residual: 0.740945   Failed.
+Overall success: Failed.
+[35;1mFOSSSim message: [mSaved residual to residual.txt.
+
+[DONE]
+    [34mt6m1/NoAdvectTests/test02.xml[0m                                       
+[32;1m------------------------------------------    
+  _____ ___  ____ ____ ____  _                
+ |  ___/ _ \/ ___/ ___/ ___|(_)_ __ ___      
+ | |_ | | | \___ \___ \___ \| | '_ ` _ \ 
+ |  _|| |_| |___) |__) |__) | | | | | | |     
+ |_|   \___/|____/____/____/|_|_| |_| |_|    
+------------------------------------------    [m
+
+[34;1mBuild type: [mRelease
+[34;1mRendering: [mDisabled
+[34;1mScene: [m/home/codio/workspace/.guides/secure/assets/t6m1/NoAdvectTests/test02.xml
+[34;1mDescription: [mNo advection test
+[34;1mVelocity pattern: [m3
+[35;1mFOSSSim message: [mBenchmarking simulation in: /tmp/tmp4LDCcC
+[35;1mProgress: [m--------------------------------------------------
+          ..............................
+[35;1mFOSSSim STATUS: [mSimulation complete at time 0.3. Exiting.
+[35;1mFOSSSim message: [mClosing benchmarked simulation file '/tmp/tmp4LDCcC'.
+Accumulated U Residual after diffusion: 677.489
+Accumulated V Residual after diffusion: 677.252
+Accumulated U Residual after advection: 677.489
+Accumulated V Residual after advection: 677.252
+Accumulated U Residual: 940.027   Failed.
+Accumulated V Residual: 935.95   Failed.
+Maximum U Residual: 0.400007   Failed.
+Maximum V Residual: 0.400005   Failed.
+Overall success: Failed.
+[35;1mFOSSSim message: [mSaved residual to residual.txt.
+
+[DONE]
+    [34mt6m1/NoAdvectTests/test03.xml[0m                                       
+[32;1m------------------------------------------    
+  _____ ___  ____ ____ ____  _                
+ |  ___/ _ \/ ___/ ___/ ___|(_)_ __ ___      
+ | |_ | | | \___ \___ \___ \| | '_ ` _ \ 
+ |  _|| |_| |___) |__) |__) | | | | | | |     
+ |_|   \___/|____/____/____/|_|_| |_| |_|    
+------------------------------------------    [m
+
+[34;1mBuild type: [mRelease
+[34;1mRendering: [mDisabled
+[34;1mScene: [m/home/codio/workspace/.guides/secure/assets/t6m1/NoAdvectTests/test03.xml
+[34;1mDescription: [mNo advection test
+[34;1mVelocity pattern: [m5
+[35;1mFOSSSim message: [mBenchmarking simulation in: /tmp/tmpyfXcRB
+[35;1mProgress: [m--------------------------------------------------
+          ..............................
+[35;1mFOSSSim STATUS: [mSimulation complete at time 0.3. Exiting.
+[35;1mFOSSSim message: [mClosing benchmarked simulation file '/tmp/tmpyfXcRB'.
+Accumulated U Residual after diffusion: 6091.95
+Accumulated V Residual after diffusion: 1668.65
+Accumulated U Residual after advection: 6091.95
+Accumulated V Residual after advection: 1668.65
+Accumulated U Residual: 8417.71   Failed.
+Accumulated V Residual: 3141.51   Failed.
+Maximum U Residual: 1.16205   Failed.
+Maximum V Residual: 1.34699   Failed.
+Overall success: Failed.
+[35;1mFOSSSim message: [mSaved residual to residual.txt.
+
+[DONE]
+    [34mt6m1/NoAdvectTests/test04.xml[0m                                       [DONE]
+    [34mt6m1/NoDiffViscTests/test01.xml[0m                                     
+[32;1m------------------------------------------    
+  _____ ___  ____ ____ ____  _                
+ |  ___/ _ \/ ___/ ___/ ___|(_)_ __ ___      
+ | |_ | | | \___ \___ \___ \| | '_ ` _ \ 
+ |  _|| |_| |___) |__) |__) | | | | | | |     
+ |_|   \___/|____/____/____/|_|_| |_| |_|    
+------------------------------------------    [m
+
+[34;1mBuild type: [mRelease
+[34;1mRendering: [mDisabled
+[34;1mScene: [m/home/codio/workspace/.guides/secure/assets/t6m1/NoDiffViscTests/test01.xml
+[34;1mDescription: [mNo diffusion or viscosity test
+[34;1mVelocity pattern: [m1
+[35;1mFOSSSim message: [mBenchmarking simulation in: /tmp/tmpufxukS
+[35;1mProgress: [m--------------------------------------------------
+          ..............................
+[35;1mFOSSSim STATUS: [mSimulation complete at time 0.3. Exiting.
+[35;1mFOSSSim message: [mClosing benchmarked simulation file '/tmp/tmpufxukS'.
+Accumulated U Residual after diffusion: 7005.93
+Accumulated V Residual after diffusion: 7005.93
+Accumulated U Residual after advection: 7438.8
+Accumulated V Residual after advection: 7438.8
+Accumulated U Residual: 10204.9   Failed.
+Accumulated V Residual: 10204.9   Failed.
+Maximum U Residual: 0.724818   Failed.
+Maximum V Residual: 0.724818   Failed.
+Overall success: Failed.
+[35;1mFOSSSim message: [mSaved residual to residual.txt.
+
+[DONE]
+    [34mt6m1/NoDiffViscTests/test02.xml[0m                                     
+[32;1m------------------------------------------    
+  _____ ___  ____ ____ ____  _                
+ |  ___/ _ \/ ___/ ___/ ___|(_)_ __ ___      
+ | |_ | | | \___ \___ \___ \| | '_ ` _ \ 
+ |  _|| |_| |___) |__) |__) | | | | | | |     
+ |_|   \___/|____/____/____/|_|_| |_| |_|    
+------------------------------------------    [m
+
+[34;1mBuild type: [mRelease
+[34;1mRendering: [mDisabled
+[34;1mScene: [m/home/codio/workspace/.guides/secure/assets/t6m1/NoDiffViscTests/test02.xml
+[34;1mDescription: [mNo diffusion or viscosity test
+[34;1mVelocity pattern: [m3
+[35;1mFOSSSim message: [mBenchmarking simulation in: /tmp/tmpuHQkpt
+[35;1mProgress: [m--------------------------------------------------
+          ..............................
+[35;1mFOSSSim STATUS: [mSimulation complete at time 0.3. Exiting.
+[35;1mFOSSSim message: [mClosing benchmarked simulation file '/tmp/tmpuHQkpt'.
+Accumulated U Residual after diffusion: 677.489
+Accumulated V Residual after diffusion: 677.252
+Accumulated U Residual after advection: 650.787
+Accumulated V Residual after advection: 709.994
+Accumulated U Residual: 938.479   Failed.
+Accumulated V Residual: 943.27   Failed.
+Maximum U Residual: 0.294262   Failed.
+Maximum V Residual: 0.844024   Failed.
+Overall success: Failed.
+[35;1mFOSSSim message: [mSaved residual to residual.txt.
+
+[DONE]
+    [34mt6m1/NoDiffViscTests/test03.xml[0m                                     
+[32;1m------------------------------------------    
+  _____ ___  ____ ____ ____  _                
+ |  ___/ _ \/ ___/ ___/ ___|(_)_ __ ___      
+ | |_ | | | \___ \___ \___ \| | '_ ` _ \ 
+ |  _|| |_| |___) |__) |__) | | | | | | |     
+ |_|   \___/|____/____/____/|_|_| |_| |_|    
+------------------------------------------    [m
+
+[34;1mBuild type: [mRelease
+[34;1mRendering: [mDisabled
+[34;1mScene: [m/home/codio/workspace/.guides/secure/assets/t6m1/NoDiffViscTests/test03.xml
+[34;1mDescription: [mNo diffusion or viscosity test
+[34;1mVelocity pattern: [m5
+[35;1mFOSSSim message: [mBenchmarking simulation in: /tmp/tmpCiDcH_
+[35;1mProgress: [m--------------------------------------------------
+          ..............................
+[35;1mFOSSSim STATUS: [mSimulation complete at time 0.3. Exiting.
+[35;1mFOSSSim message: [mClosing benchmarked simulation file '/tmp/tmpCiDcH_'.
+Accumulated U Residual after diffusion: 6091.95
+Accumulated V Residual after diffusion: 1668.65
+Accumulated U Residual after advection: 6297.97
+Accumulated V Residual after advection: 1659.71
+Accumulated U Residual: 8545.06   Failed.
+Accumulated V Residual: 3132.24   Failed.
+Maximum U Residual: 1.56882   Failed.
+Maximum V Residual: 0.956815   Failed.
+Overall success: Failed.
+[35;1mFOSSSim message: [mSaved residual to residual.txt.
+
+[DONE]
+    [34mt6m1/NoDiffViscTests/test04.xml[0m                                     [DONE]
+    [34mt6m1/SystemTests/test01.xml[0m                                         
+[32;1m------------------------------------------    
+  _____ ___  ____ ____ ____  _                
+ |  ___/ _ \/ ___/ ___/ ___|(_)_ __ ___      
+ | |_ | | | \___ \___ \___ \| | '_ ` _ \ 
+ |  _|| |_| |___) |__) |__) | | | | | | |     
+ |_|   \___/|____/____/____/|_|_| |_| |_|    
+------------------------------------------    [m
+
+[34;1mBuild type: [mRelease
+[34;1mRendering: [mDisabled
+[34;1mScene: [m/home/codio/workspace/.guides/secure/assets/t6m1/SystemTests/test01.xml
+[34;1mDescription: [mVelocity field pattern test
+[34;1mVelocity pattern: [m1
+[35;1mFOSSSim message: [mBenchmarking simulation in: /tmp/tmpDWUxKE
+[35;1mProgress: [m--------------------------------------------------
+          ..............................
+[35;1mFOSSSim STATUS: [mSimulation complete at time 0.3. Exiting.
+[35;1mFOSSSim message: [mClosing benchmarked simulation file '/tmp/tmpDWUxKE'.
+Accumulated U Residual after diffusion: 7005.93
+Accumulated V Residual after diffusion: 7005.93
+Accumulated U Residual after advection: 7438.8
+Accumulated V Residual after advection: 7438.8
+Accumulated U Residual: 10204.9   Failed.
+Accumulated V Residual: 10204.9   Failed.
+Maximum U Residual: 0.724818   Failed.
+Maximum V Residual: 0.724818   Failed.
+Overall success: Failed.
+[35;1mFOSSSim message: [mSaved residual to residual.txt.
+
+[DONE]
+    [34mt6m1/SystemTests/test08.xml[0m                                         
+[32;1m------------------------------------------    
+  _____ ___  ____ ____ ____  _                
+ |  ___/ _ \/ ___/ ___/ ___|(_)_ __ ___      
+ | |_ | | | \___ \___ \___ \| | '_ ` _ \ 
+ |  _|| |_| |___) |__) |__) | | | | | | |     
+ |_|   \___/|____/____/____/|_|_| |_| |_|    
+------------------------------------------    [m
+
+[34;1mBuild type: [mRelease
+[34;1mRendering: [mDisabled
+[34;1mScene: [m/home/codio/workspace/.guides/secure/assets/t6m1/SystemTests/test08.xml
+[34;1mDescription: [mVelocity field pattern test
+[34;1mVelocity pattern: [m8
+[35;1mFOSSSim message: [mBenchmarking simulation in: /tmp/tmp5Nr7qj
+[35;1mProgress: [m--------------------------------------------------
+          ..............................
+[35;1mFOSSSim STATUS: [mSimulation complete at time 0.3. Exiting.
+[35;1mFOSSSim message: [mClosing benchmarked simulation file '/tmp/tmp5Nr7qj'.
+Accumulated U Residual after diffusion: 170.047
+Accumulated V Residual after diffusion: 169.312
+Accumulated U Residual after advection: 166.352
+Accumulated V Residual after advection: 171.315
+Accumulated U Residual: 241.268   Failed.
+Accumulated V Residual: 233.37   Failed.
+Maximum U Residual: 0.171754   Failed.
+Maximum V Residual: 0.311104   Failed.
+Overall success: Failed.
+[35;1mFOSSSim message: [mSaved residual to residual.txt.
+
+[DONE]
+    [34mt6m1/SystemTests/test06.xml[0m                                         [DONE]
+    [34mt6m1/SystemTests/test02.xml[0m                                         
+[32;1m------------------------------------------    
+  _____ ___  ____ ____ ____  _                
+ |  ___/ _ \/ ___/ ___/ ___|(_)_ __ ___      
+ | |_ | | | \___ \___ \___ \| | '_ ` _ \ 
+ |  _|| |_| |___) |__) |__) | | | | | | |     
+ |_|   \___/|____/____/____/|_|_| |_| |_|    
+------------------------------------------    [m
+
+[34;1mBuild type: [mRelease
+[34;1mRendering: [mDisabled
+[34;1mScene: [m/home/codio/workspace/.guides/secure/assets/t6m1/SystemTests/test02.xml
+[34;1mDescription: [mVelocity field pattern test
+[34;1mVelocity pattern: [m2
+[35;1mFOSSSim message: [mBenchmarking simulation in: /tmp/tmpkUULh4
+[35;1mProgress: [m--------------------------------------------------
+          ..............................
+[35;1mFOSSSim STATUS: [mSimulation complete at time 0.3. Exiting.
+[35;1mFOSSSim message: [mClosing benchmarked simulation file '/tmp/tmpkUULh4'.
+Accumulated U Residual after diffusion: 1143.98
+Accumulated V Residual after diffusion: 1143.98
+Accumulated U Residual after advection: 1133.53
+Accumulated V Residual after advection: 1133.53
+Accumulated U Residual: 1181.72   Failed.
+Accumulated V Residual: 1181.72   Failed.
+Maximum U Residual: 0.530198   Failed.
+Maximum V Residual: 0.530198   Failed.
+Overall success: Failed.
+[35;1mFOSSSim message: [mSaved residual to residual.txt.
+
+[DONE]
+    [34mt6m1/SystemTests/test03.xml[0m                                         
+[32;1m------------------------------------------    
+  _____ ___  ____ ____ ____  _                
+ |  ___/ _ \/ ___/ ___/ ___|(_)_ __ ___      
+ | |_ | | | \___ \___ \___ \| | '_ ` _ \ 
+ |  _|| |_| |___) |__) |__) | | | | | | |     
+ |_|   \___/|____/____/____/|_|_| |_| |_|    
+------------------------------------------    [m
+
+[34;1mBuild type: [mRelease
+[34;1mRendering: [mDisabled
+[34;1mScene: [m/home/codio/workspace/.guides/secure/assets/t6m1/SystemTests/test03.xml
+[34;1mDescription: [mVelocity field pattern test
+[34;1mVelocity pattern: [m3
+[35;1mFOSSSim message: [mBenchmarking simulation in: /tmp/tmp2RSO8D
+[35;1mProgress: [m--------------------------------------------------
+          ..............................
+[35;1mFOSSSim STATUS: [mSimulation complete at time 0.3. Exiting.
+[35;1mFOSSSim message: [mClosing benchmarked simulation file '/tmp/tmp2RSO8D'.
+Accumulated U Residual after diffusion: 677.489
+Accumulated V Residual after diffusion: 677.252
+Accumulated U Residual after advection: 650.787
+Accumulated V Residual after advection: 709.994
+Accumulated U Residual: 938.479   Failed.
+Accumulated V Residual: 943.271   Failed.
+Maximum U Residual: 0.294262   Failed.
+Maximum V Residual: 0.844024   Failed.
+Overall success: Failed.
+[35;1mFOSSSim message: [mSaved residual to residual.txt.
+
+[DONE]
+    [34mt6m1/SystemTests/test04.xml[0m                                         
+[32;1m------------------------------------------    
+  _____ ___  ____ ____ ____  _                
+ |  ___/ _ \/ ___/ ___/ ___|(_)_ __ ___      
+ | |_ | | | \___ \___ \___ \| | '_ ` _ \ 
+ |  _|| |_| |___) |__) |__) | | | | | | |     
+ |_|   \___/|____/____/____/|_|_| |_| |_|    
+------------------------------------------    [m
+
+[34;1mBuild type: [mRelease
+[34;1mRendering: [mDisabled
+[34;1mScene: [m/home/codio/workspace/.guides/secure/assets/t6m1/SystemTests/test04.xml
+[34;1mDescription: [mVelocity field pattern test
+[34;1mVelocity pattern: [m4
+[35;1mFOSSSim message: [mBenchmarking simulation in: /tmp/tmpNDxCFW
+[35;1mProgress: [m--------------------------------------------------
+          ..............................
+[35;1mFOSSSim STATUS: [mSimulation complete at time 0.3. Exiting.
+[35;1mFOSSSim message: [mClosing benchmarked simulation file '/tmp/tmpNDxCFW'.
+Accumulated U Residual after diffusion: 507.946
+Accumulated V Residual after diffusion: 475.492
+Accumulated U Residual after advection: 571.041
+Accumulated V Residual after advection: 455.749
+Accumulated U Residual: 734.096   Failed.
+Accumulated V Residual: 686.868   Failed.
+Maximum U Residual: 1.46761   Failed.
+Maximum V Residual: 0.524105   Failed.
+Overall success: Failed.
+[35;1mFOSSSim message: [mSaved residual to residual.txt.
+
+[DONE]
+    [34mt6m1/SystemTests/test05.xml[0m                                         
+[32;1m------------------------------------------    
+  _____ ___  ____ ____ ____  _                
+ |  ___/ _ \/ ___/ ___/ ___|(_)_ __ ___      
+ | |_ | | | \___ \___ \___ \| | '_ ` _ \ 
+ |  _|| |_| |___) |__) |__) | | | | | | |     
+ |_|   \___/|____/____/____/|_|_| |_| |_|    
+------------------------------------------    [m
+
+[34;1mBuild type: [mRelease
+[34;1mRendering: [mDisabled
+[34;1mScene: [m/home/codio/workspace/.guides/secure/assets/t6m1/SystemTests/test05.xml
+[34;1mDescription: [mVelocity field pattern test
+[34;1mVelocity pattern: [m5
+[35;1mFOSSSim message: [mBenchmarking simulation in: /tmp/tmpkCUtzx
+[35;1mProgress: [m--------------------------------------------------
+          ..............................
+[35;1mFOSSSim STATUS: [mSimulation complete at time 0.3. Exiting.
+[35;1mFOSSSim message: [mClosing benchmarked simulation file '/tmp/tmpkCUtzx'.
+Accumulated U Residual after diffusion: 6091.95
+Accumulated V Residual after diffusion: 1668.65
+Accumulated U Residual after advection: 6297.97
+Accumulated V Residual after advection: 1659.71
+Accumulated U Residual: 8545.07   Failed.
+Accumulated V Residual: 3132.24   Failed.
+Maximum U Residual: 1.56882   Failed.
+Maximum V Residual: 0.956815   Failed.
+Overall success: Failed.
+[35;1mFOSSSim message: [mSaved residual to residual.txt.
+
+[DONE]
+    [34mt6m1/SystemTests/test09.xml[0m                                         
+[32;1m------------------------------------------    
+  _____ ___  ____ ____ ____  _                
+ |  ___/ _ \/ ___/ ___/ ___|(_)_ __ ___      
+ | |_ | | | \___ \___ \___ \| | '_ ` _ \ 
+ |  _|| |_| |___) |__) |__) | | | | | | |     
+ |_|   \___/|____/____/____/|_|_| |_| |_|    
+------------------------------------------    [m
+
+[34;1mBuild type: [mRelease
+[34;1mRendering: [mDisabled
+[34;1mScene: [m/home/codio/workspace/.guides/secure/assets/t6m1/SystemTests/test09.xml
+[34;1mDescription: [mVelocity field pattern test
+[34;1mVelocity pattern: [m9
+[35;1mFOSSSim message: [mBenchmarking simulation in: /tmp/tmpobQ25b
+[35;1mProgress: [m--------------------------------------------------
+          ..............................
+[35;1mFOSSSim STATUS: [mSimulation complete at time 0.3. Exiting.
+[35;1mFOSSSim message: [mClosing benchmarked simulation file '/tmp/tmpobQ25b'.
+Accumulated U Residual after diffusion: 170.047
+Accumulated V Residual after diffusion: 169.312
+Accumulated U Residual after advection: 166.355
+Accumulated V Residual after advection: 171.316
+Accumulated U Residual: 241.265   Failed.
+Accumulated V Residual: 234.699   Failed.
+Maximum U Residual: 0.17149   Failed.
+Maximum V Residual: 0.312028   Failed.
+Overall success: Failed.
+[35;1mFOSSSim message: [mSaved residual to residual.txt.
+
+[DONE]
+    [34mt6m1/SystemTests/test07.xml[0m                                         [DONE]
+    [34mt6m1/NoProjectTests/test01.xml[0m                                      
+[32;1m------------------------------------------    
+  _____ ___  ____ ____ ____  _                
+ |  ___/ _ \/ ___/ ___/ ___|(_)_ __ ___      
+ | |_ | | | \___ \___ \___ \| | '_ ` _ \ 
+ |  _|| |_| |___) |__) |__) | | | | | | |     
+ |_|   \___/|____/____/____/|_|_| |_| |_|    
+------------------------------------------    [m
+
+[34;1mBuild type: [mRelease
+[34;1mRendering: [mDisabled
+[34;1mScene: [m/home/codio/workspace/.guides/secure/assets/t6m1/NoProjectTests/test01.xml
+[34;1mDescription: [mNo projection test
+[34;1mVelocity pattern: [m2
+[35;1mFOSSSim message: [mBenchmarking simulation in: /tmp/tmpjlhlj1
+[35;1mProgress: [m--------------------------------------------------
+          ..............................
+[35;1mFOSSSim STATUS: [mSimulation complete at time 0.3. Exiting.
+[35;1mFOSSSim message: [mClosing benchmarked simulation file '/tmp/tmpjlhlj1'.
+Accumulated U Residual after diffusion: 0
+Accumulated V Residual after diffusion: 0
+Accumulated U Residual after advection: 732.832
+Accumulated V Residual after advection: 732.832
+Accumulated U Residual: 732.832   Failed.
+Accumulated V Residual: 732.832   Failed.
+Maximum U Residual: 0.459571   Failed.
+Maximum V Residual: 0.459571   Failed.
+Overall success: Failed.
+[35;1mFOSSSim message: [mSaved residual to residual.txt.
+
+[DONE]
+    [34mt6m1/NoProjectTests/test02.xml[0m                                      
+[32;1m------------------------------------------    
+  _____ ___  ____ ____ ____  _                
+ |  ___/ _ \/ ___/ ___/ ___|(_)_ __ ___      
+ | |_ | | | \___ \___ \___ \| | '_ ` _ \ 
+ |  _|| |_| |___) |__) |__) | | | | | | |     
+ |_|   \___/|____/____/____/|_|_| |_| |_|    
+------------------------------------------    [m
+
+[34;1mBuild type: [mRelease
+[34;1mRendering: [mDisabled
+[34;1mScene: [m/home/codio/workspace/.guides/secure/assets/t6m1/NoProjectTests/test02.xml
+[34;1mDescription: [mNo projection test
+[34;1mVelocity pattern: [m4
+[35;1mFOSSSim message: [mBenchmarking simulation in: /tmp/tmpEYqtB2
+[35;1mProgress: [m--------------------------------------------------
+          ..............................
+[35;1mFOSSSim STATUS: [mSimulation complete at time 0.3. Exiting.
+[35;1mFOSSSim message: [mClosing benchmarked simulation file '/tmp/tmpEYqtB2'.
+Accumulated U Residual after diffusion: 0
+Accumulated V Residual after diffusion: 0
+Accumulated U Residual after advection: 110.592
+Accumulated V Residual after advection: 0
+Accumulated U Residual: 110.592   Failed.
+Accumulated V Residual: 0   Passed.
+Maximum U Residual: 2.4   Failed.
+Maximum V Residual: 0   Passed.
+Overall success: Failed.
+[35;1mFOSSSim message: [mSaved residual to residual.txt.
+
+[DONE]
+    [34mt6m1/NoProjectTests/test03.xml[0m                                      [DONE]
+    [34mt6m1/NoProjectTests/test04.xml[0m                                      
+[32;1m------------------------------------------    
+  _____ ___  ____ ____ ____  _                
+ |  ___/ _ \/ ___/ ___/ ___|(_)_ __ ___      
+ | |_ | | | \___ \___ \___ \| | '_ ` _ \ 
+ |  _|| |_| |___) |__) |__) | | | | | | |     
+ |_|   \___/|____/____/____/|_|_| |_| |_|    
+------------------------------------------    [m
+
+[34;1mBuild type: [mRelease
+[34;1mRendering: [mDisabled
+[34;1mScene: [m/home/codio/workspace/.guides/secure/assets/t6m1/NoProjectTests/test04.xml
+[34;1mDescription: [mNo projection test
+[34;1mVelocity pattern: [m8
+[35;1mFOSSSim message: [mBenchmarking simulation in: /tmp/tmpD6IBki
+[35;1mProgress: [m--------------------------------------------------
+          ..............................
+[35;1mFOSSSim STATUS: [mSimulation complete at time 0.3. Exiting.
+[35;1mFOSSSim message: [mClosing benchmarked simulation file '/tmp/tmpD6IBki'.
+Accumulated U Residual after diffusion: 0
+Accumulated V Residual after diffusion: 0
+Accumulated U Residual after advection: 0
+Accumulated V Residual after advection: 12.288
+Accumulated U Residual: 0   Passed.
+Accumulated V Residual: 12.288   Failed.
+Maximum U Residual: 0   Passed.
+Maximum V Residual: 0.4096   Failed.
+Overall success: Failed.
+[35;1mFOSSSim message: [mSaved residual to residual.txt.
+
+[DONE]
+
+==============================================================================
+  Results:
+==============================================================================
+
+    [34mt6m1/NoViscTests/test01.xml[0m                                         [1m[31m[FAIL]
+[0m[0m    [34mt6m1/NoViscTests/test02.xml[0m                                         [1m[31m[FAIL]
+[0m[0m    [34mt6m1/NoViscTests/test03.xml[0m                                         [1m[32m[ OK ]
+[0m[0m    [34mt6m1/NoViscTests/test04.xml[0m                                         [1m[31m[FAIL]
+[0m[0m    [34mt6m1/NoDiffTests/test01.xml[0m                                         [1m[31m[FAIL]
+[0m[0m    [34mt6m1/NoDiffTests/test02.xml[0m                                         [1m[31m[FAIL]
+[0m[0m    [34mt6m1/NoDiffTests/test03.xml[0m                                         [1m[31m[FAIL]
+[0m[0m    [34mt6m1/NoDiffTests/test04.xml[0m                                         [1m[32m[ OK ]
+[0m[0m    [34mt6m1/NoAdvectTests/test01.xml[0m                                       [1m[31m[FAIL]
+[0m[0m    [34mt6m1/NoAdvectTests/test02.xml[0m                                       [1m[31m[FAIL]
+[0m[0m    [34mt6m1/NoAdvectTests/test03.xml[0m                                       [1m[31m[FAIL]
+[0m[0m    [34mt6m1/NoAdvectTests/test04.xml[0m                                       [1m[32m[ OK ]
+[0m[0m    [34mt6m1/NoDiffViscTests/test01.xml[0m                                     [1m[31m[FAIL]
+[0m[0m    [34mt6m1/NoDiffViscTests/test02.xml[0m                                     [1m[31m[FAIL]
+[0m[0m    [34mt6m1/NoDiffViscTests/test03.xml[0m                                     [1m[31m[FAIL]
+[0m[0m    [34mt6m1/NoDiffViscTests/test04.xml[0m                                     [1m[32m[ OK ]
+[0m[0m    [34mt6m1/SystemTests/test01.xml[0m                                         [1m[31m[FAIL]
+[0m[0m    [34mt6m1/SystemTests/test08.xml[0m                                         [1m[31m[FAIL]
+[0m[0m    [34mt6m1/SystemTests/test06.xml[0m                                         [1m[32m[ OK ]
+[0m[0m    [34mt6m1/SystemTests/test02.xml[0m                                         [1m[31m[FAIL]
+[0m[0m    [34mt6m1/SystemTests/test03.xml[0m                                         [1m[31m[FAIL]
+[0m[0m    [34mt6m1/SystemTests/test04.xml[0m                                         [1m[31m[FAIL]
+[0m[0m    [34mt6m1/SystemTests/test05.xml[0m                                         [1m[31m[FAIL]
+[0m[0m    [34mt6m1/SystemTests/test09.xml[0m                                         [1m[31m[FAIL]
+[0m[0m    [34mt6m1/SystemTests/test07.xml[0m                                         [1m[32m[ OK ]
+[0m[0m    [34mt6m1/NoProjectTests/test01.xml[0m                                      [1m[31m[FAIL]
+[0m[0m    [34mt6m1/NoProjectTests/test02.xml[0m                                      [1m[31m[FAIL]
+[0m[0m    [34mt6m1/NoProjectTests/test03.xml[0m                                      [1m[32m[ OK ]
+[0m[0m    [34mt6m1/NoProjectTests/test04.xml[0m                                      [1m[31m[FAIL]
+[0m[0m
+==============================================================================
+
+Passed [1m[32m7[0m[0m / [1m29[0m required tests and [1m[32m0[0m[0m extra credit tests for a grade of [1m[34m24.1[0m[0m% (lateness penalty [1m[31m0.0[0m[0m% included).
+

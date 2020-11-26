@@ -1,0 +1,38 @@
+<scene>
+  <description text="A particle hits 5 particles arranged in an inverted triangle. Both COR and weak simple gravity are at play. There is an edge at a downward angle such to exercise particle edge collision. Furthermore, these particles end up in the bottom of a half plane pit. "/>
+
+  <duration time="10.5"/>
+  <integrator type="explicit-euler" dt="0.01"/>
+  <viewport cx="0" cy="0" size="5"/>
+  <collision type="simple" COR="0.35"/>
+
+
+  <particle m="1.0" px="-2.0"  py="4.0"  vx="6.0" vy="-4.5" fixed="0" radius="0.2"/>
+  <particle m="1.0" px="0.0"  py="3.0"  vx="0.0" vy="0.0" fixed="0" radius="0.2"/> 
+  <particle m="1.0" px="-0.4" py="3.0"  vx="0.0" vy="0.0" fixed="0" radius="0.2"/>
+  <particle m="1.0" px="0.4"  py="3.0"  vx="0.0" vy="0.0" fixed="0" radius="0.2"/>
+  <particle m="1.0" px="-0.2" py="2.6"  vx="0.0" vy="0.0" fixed="0" radius="0.2"/>
+  <particle m="1.0" px="0.2"  py="2.6"  vx="0.0" vy="0.0" fixed="0" radius="0.2"/>
+  <particle m="1.0" px="0.0"  py="2.2"  vx="0.0" vy="0.0" fixed="0" radius="0.2"/>
+    
+  <particle m="1.0" px="-0.8" py="0.0" vx="0.0" vy="0.0" fixed="1" radius="0.1"/>
+  <particle m="1.0" px=" 0.8" py="-0.5" vx="0.0" vy="0.0" fixed="1" radius="0.1"/>
+  <edge i="7" j="8" radius="0.075"/>
+    
+  <halfplane px="-1" py="-1" nx="1" ny="1"/>
+  <halfplane px="1" py="-1" nx="-1" ny="1"/>
+  <halfplane px="0" py="-1.5" nx="0" ny="1"/>
+    
+  <particlecolor i="0" r="1.0" g="0.75" b="0.50"/>
+  <particlecolor i="1" r="1.0" g="0.0" b="0.0"/>
+  <particlecolor i="2" r="0.0" g="1.0" b="0.0"/>
+  <particlecolor i="3" r="0.0" g="1.0" b="0.0"/>
+  <particlecolor i="4" r="0.0" g="0.0" b="1.0"/>
+  <particlecolor i="5" r="0.0" g="0.0" b="1.0"/>
+  <particlecolor i="6" r="0.0" g="0.0" b="0.0"/>
+  <particlecolor i="7" r="0.0" g="0.0" b="0.0"/>
+  <particlecolor i="8" r="0.0" g="0.0" b="0.0"/>
+
+  <simplegravity fx="0" fy="-1.0"/>
+  <springforce edge="0" k="10" l0="2.0"/>
+</scene>

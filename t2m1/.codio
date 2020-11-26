@@ -1,0 +1,13 @@
+{
+    "commands": {
+    },
+    "preview": {
+        "Virtual Desktop": "https://{{domain3000}}/",
+        "Project Index (static)": "https://{{domain}}/{{index}}",
+        "Current File (static)": "https://{{domain}}/{{filepath}}",
+        "Box URL": "http://{{domain3000}}/",
+        "Box URL SSL": "https://{{domain3000}}/"
+    },
+  "autogradeTestScripts": [".guides/secure/submit_t2m1.sh"],
+  "debugger": [{"type":"GDB","command":"build/FOSSSim/FOSSSim","before":"DEBUG_MODE = ON","uuid":"286fa2ed-716c-a9de-5c68-2306d6126c36","name":"Debug"}]
+}

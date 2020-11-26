@@ -1,0 +1,26 @@
+In file included from /home/codio/workspace/include/eigen/Eigen/Core:259:0,
+                 from /home/codio/workspace/FOSSSim/MathUtilities.h:4,
+                 from /home/codio/workspace/FOSSSim/StableFluids/StableFluidsSim.h:6,
+                 from /home/codio/workspace/FOSSSim/StableFluids/StableFluidsSim.cpp:1:
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h: In instantiation of ‘class Eigen::DenseBase<Eigen::Array<double, -1, -1, 1> >’:
+/home/codio/workspace/include/eigen/Eigen/src/Core/ArrayBase.h:49:34:   required from ‘class Eigen::ArrayBase<Eigen::Array<double, -1, -1, 1> >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseStorageBase.h:43:7:   required from ‘class Eigen::DenseStorageBase<Eigen::Array<double, -1, -1, 1> >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/Array.h:50:7:   required from ‘class Eigen::Array<double, -1, -1, 1>’
+/home/codio/workspace/FOSSSim/StableFluids/StableFluidsSim.h:143:11:   required from here
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h:163:59: warning: enumeral mismatch in conditional expression: ‘Eigen::ei_size_at_compile_time<-1, -1>::<anonymous enum>’ vs ‘Eigen::ei_traits<Eigen::Matrix<double, -1, -1, 1, -1, -1> >::<anonymous enum>’ [-Wenum-compare]
+       InnerSizeAtCompileTime = int(IsVectorAtCompileTime) ? SizeAtCompileTime
+                                                           ^
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h: In instantiation of ‘class Eigen::DenseBase<Eigen::Array<bool, -1, -1, 1> >’:
+/home/codio/workspace/include/eigen/Eigen/src/Core/ArrayBase.h:49:34:   required from ‘class Eigen::ArrayBase<Eigen::Array<bool, -1, -1, 1> >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseStorageBase.h:43:7:   required from ‘class Eigen::DenseStorageBase<Eigen::Array<bool, -1, -1, 1> >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/Array.h:50:7:   required from ‘class Eigen::Array<bool, -1, -1, 1>’
+/home/codio/workspace/FOSSSim/StableFluids/StableFluidsSim.h:157:11:   required from here
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h:163:59: warning: enumeral mismatch in conditional expression: ‘Eigen::ei_size_at_compile_time<-1, -1>::<anonymous enum>’ vs ‘Eigen::ei_traits<Eigen::Matrix<bool, -1, -1, 1, -1, -1> >::<anonymous enum>’ [-Wenum-compare]
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h: In instantiation of ‘class Eigen::DenseBase<Eigen::CwiseNullaryOp<Eigen::ei_scalar_constant_op<double>, Eigen::Array<double, -1, -1, 1> > >’:
+/home/codio/workspace/include/eigen/Eigen/src/Core/ArrayBase.h:49:34:   required from ‘class Eigen::ArrayBase<Eigen::CwiseNullaryOp<Eigen::ei_scalar_constant_op<double>, Eigen::Array<double, -1, -1, 1> > >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/CwiseNullaryOp.h:59:7:   required from ‘class Eigen::CwiseNullaryOp<Eigen::ei_scalar_constant_op<double>, Eigen::Array<double, -1, -1, 1> >’
+/home/codio/workspace/include/eigen/Eigen/src/Core/CwiseNullaryOp.h:338:52:   required from ‘Derived& Eigen::DenseBase<Derived>::setConstant(const Scalar&) [with Derived = Eigen::Array<double, -1, -1, 1>; Eigen::DenseBase<Derived>::Scalar = double]’
+/home/codio/workspace/include/eigen/Eigen/src/Core/CwiseNullaryOp.h:487:31:   required from ‘Derived& Eigen::DenseBase<Derived>::setZero() [with Derived = Eigen::Array<double, -1, -1, 1>]’
+/home/codio/workspace/FOSSSim/StableFluids/StableFluidsSim.cpp:263:15:   required from here
+/home/codio/workspace/include/eigen/Eigen/src/Core/DenseBase.h:163:59: warning: enumeral mismatch in conditional expression: ‘Eigen::ei_size_at_compile_time<-1, -1>::<anonymous enum>’ vs ‘Eigen::ei_traits<Eigen::Matrix<double, -1, -1, 1, -1, -1> >::<anonymous enum>’ [-Wenum-compare]
+chmod: changing permissions of ‘/home/codio/workspace/.guides’: Operation not permitted
